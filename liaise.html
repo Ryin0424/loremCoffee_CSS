@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>聯絡我們│Lorem Coffee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--viewport，限制使用者操作縮放-->
+
+    <meta name="description" content="Parallax Content Slider with CSS3 and jQuery" />
+    <meta name="keywords" content="slider, animations, parallax, delayed, easing, jquery, css3, kendo UI" />
+    <meta name="author" content="Codrops" />
+    <link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+    <!--載入(英文)字型檔-->
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="css/nojs.css" />
+    </noscript>
+
+    <link rel="shortcut icon" href="img/coffee-cup.ico">
+    <!--載入網頁圖示-->
+    <link rel="stylesheet" href="css/Lorem Coffee.css">
+    <!--載入自定義的css檔-->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!--載入font-awesome.css檔-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--載入animate.css動畫效果-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!--載入JS(jQuery)核心-->
+    <script src="js/coffee_all.js"></script>
+    <!--載入自定義的jQuery檔-->
+</head>
+
+<body>
+    <div id="header">
+        <div class="top_bar">
+            <div class="logo">
+                <h1>
+                    <a href="index.html">Lorem Coffee</a>
+                </h1>
+            </div>
+            <!--下拉式選單-->
+            <ul class="drop-down-menu">
+                <li><a href="index.html" title="返回首頁"><span class="fa fa-home"></span> 首頁</a>
+                </li>
+                <li><a herf="#">產品介紹 <span class="fa fa-chevron-down"></span></a>
+                    <ul>
+                        <li><a href="product_coffee.html">精品咖啡</a>
+                        </li>
+                        <li><a href="product_tea.html">茶品與其他飲品</a>
+                        </li>
+                        <li><a href="product_cake.html">糕點甜品</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li><a href="liaise.html" title="聯絡我們">聯絡資訊</a>
+                    </li>
+            </ul>
+            <!--手機版本選單-->
+            <div id="right_menu">
+                <div class="fa fa-bars"></div>
+                <ul class="menu_list">
+                    <div class="fa fa-chevron-up"></div>
+                    <div class="clearfix"></div>
+
+                    <li class="blank"><a href="index.html" title="返回首頁">首頁</a></li>
+                    <li><a href="#" class="nope">產品介紹</a>
+                        <ul>
+                            <li><a href="product_coffee.html">精品咖啡</a>
+                            </li>
+                            <li><a href="product_tea.html">茶品與其他飲品</a>
+                            </li>
+                            <li><a href="product_cake.html">糕點甜品</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="liaise.html" title="聯絡我們">聯絡資訊</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="lia_main">
+        <h2>聯絡我們</h2>
+        <div class="lia_box">
+            <div class="text_note">
+                <h3>GET IN TOUCH</h3>
+                <p>我們竭誠為您服務</p>
+                <p>若有任何問題，歡迎來訊詢問。</p>
+            </div>
+            <div class="ico_Box">
+                <li>
+                    <a class="fa fa-facebook" herf="#" title="粉絲專頁"></a>
+                </li>
+                <li>
+                    <a class="fa fa-envelope" herf="#" title="寫信來訊"></a>
+                </li>
+                <li>
+                    <a class="fa fa-heart-o" herf="#" title="加入書籤"></a>
+                </li>
+            </div>
+        </div>
+        <form action="#">
+            <textarea name="opinion" id="opinion" class="opinion" placeholder="請留下您的意見"></textarea>
+            <div class="form_list">
+                <input type="text" id="name" name="name" placeholder="聯絡姓名">
+                <input type="text" id="phone" name="phone" placeholder="行動電話">
+                <input type="text" id="mail" name="mail" placeholder="電子信箱">
+                <input type="submit" value="送出">
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <p>© 2017 Ryin. All rights reserved.</p>
+        <div class="footer_bar">
+            <span>聯絡我們：</span>
+            <span class="inf">a30729522@gmail.com</span>
+            <br>
+            <span>電話：</span>
+            <span class="inf">0920-577503</span>
+        </div>
+    </div>
+    <!--聯絡鈕-->
+    <div id="liaise">
+        <div class="bar">
+            <p>聯 絡 我 們</p>
+        </div>
+        <ul class="icon_container">
+            <li>
+                <a class="fa fa-facebook" herf="#"></a>
+            </li>
+            <li>
+                <a class="fa fa-envelope" herf="#"></a>
+            </li>
+            <li>
+                <a class="fa fa-heart-o" herf="#"></a>
+            </li>
+        </ul>
+    </div>
+    <!--go top鈕-->
+    <img id="go_top" src="img/go_top.png" title="回到頁首" />
+    <script>
+    $.extend($.easing, {
+        easeOutExpo: function(x, t, b, c, d) {
+            return (t == d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+        }
+    });
+    </script>
+</body>
+
+</html>
