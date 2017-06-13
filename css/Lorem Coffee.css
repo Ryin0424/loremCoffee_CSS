@@ -757,6 +757,7 @@ textarea,input:-ms-input-placeholder{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    text-decoration: none;
 }
 .fa {
     display: inline-block;
