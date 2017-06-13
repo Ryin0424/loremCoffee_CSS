@@ -540,7 +540,6 @@ ul.products_list li div{ /*暫代圖片*/
 }
 @media (min-width: 768px){
   .lia_main{
-    width: 750px;
     margin: 0;
   }
   .text_note{
