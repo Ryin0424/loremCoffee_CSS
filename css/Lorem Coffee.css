@@ -189,7 +189,13 @@ body{
     margin-top: 0px;
     margin-left: -50px;
   }
+  #liaise{
+    display: none !important;
+    /*因為用jQ呼叫display:block;
+    不知道這邊權重該怎麼壓過去*/
+  }
 }
+
 @media (max-width: 400px){ /*375px(iphone6)時的版型*/
   #da-slider{
     max-height: 100%;
@@ -214,9 +220,6 @@ body{
     margin-top: 43px;
     margin-left: -90px;
     opacity: 0.65; /*背景化*/
-  }
-  #liaise{
-    display: none;
   }
 }
 /*****下開選單*****/
