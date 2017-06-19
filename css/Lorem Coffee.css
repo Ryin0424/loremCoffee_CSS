@@ -151,6 +151,9 @@ body{
 
 
 /*****幻燈片******/
+#da-slider{
+  z-index: 1;
+}
 .da-img img.coffee_img{
   height: 380px;
   margin-top:-30px;
@@ -535,7 +538,7 @@ ul.products_list li div{ /*暫代圖片*/
 /*liaise部分*/
 @media (min-height: 900px){
   .lia_main{
-    height: 75vh !important; /*避免使用者畫面太高時，footer上浮太嚴重*/
+    min-height: calc(90vh - 170px) !important; /*避免使用者畫面太高時，footer上浮太嚴重*/
   }
 }
 @media (min-width: 768px){
