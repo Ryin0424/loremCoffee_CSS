@@ -20,5 +20,5 @@ lorem 咖啡
 
 ---
 
+![小東西](https://i.imgur.com/qjFuGSU.gif)
 當時真的很喜歡做一些~~沒什麼美感~~但是自己覺得有趣的小東西 (つд⊂)
-![小東西](https://imgur.com/a/H6K1tIF)
