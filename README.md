@@ -7,6 +7,7 @@ lorem 咖啡
 - 使用技術
   - jQuery
   - slider plugin
+  - 視差滾動效果
   - 手刻 CSS layout
   - CSS animation
 
@@ -20,3 +21,4 @@ lorem 咖啡
 ---
 
 當時真的很喜歡做一些~~沒什麼美感~~但是自己覺得有趣的小東西 (つд⊂)
+![小東西](https://imgur.com/a/H6K1tIF)
